@@ -51,11 +51,11 @@ This article shows how to UPGRADE (not update) Windows Server OS on cluster node
 		- Failover group should be active on Primary Server.
 		- Secondary Server should be Offline.
 	1. Stop Failover gourp.
-		- * Note*
+		- **Note**
 			- At this time, failover group should be de-activated until applying cluster configuraton.
 	1. Go to Cluster WebUI Config Mode.
 	1. Apply the configuration.
-		- *Note*
+		- **Note**
 			- To apply the cluster configuration to Secondary Server and GUID of Secondary Server Mirror Disk to cluster configruation, applying is required.
 	1. Confirm that Secondary Server gets Online.
 	1. Activate failover group on Primary Server.
